@@ -6,7 +6,7 @@ cursor = conn.cursor()
 
 cursor.execute('''
     UPDATE eventos
-    SET titulo = 'Conferencia Tech'
+    SET titulo = 'Conferencia Tech', descricao = 'Conferência das ultimas tendências tecnológicas'
     WHERE id_evento = 1;
 ''')
 
